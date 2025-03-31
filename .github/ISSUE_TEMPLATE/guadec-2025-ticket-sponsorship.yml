@@ -1,5 +1,6 @@
 name: Request GUADEC 2025 ticket sponsorship
 title: "[Request] GUADEC 2025 entrance ticket sponsorship"
+description: Request for a sponsored GUADEC 2025 entrance ticket.
 body:
   - type: markdown
     attributes:
