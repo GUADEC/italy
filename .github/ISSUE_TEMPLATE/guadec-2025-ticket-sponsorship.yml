@@ -47,7 +47,7 @@ body:
       label: Are you up for a 5-6 minutes lightning talk about the project @ GUADEC 2025?
       description: Participation is optional for the lighting talk, but we highly encourage participating in it.
       options:
-          - Yes
-          - No
+          - 'Yes, Sign me up!'
+          - 'No, I am not interested.'
     validations:
       required: true
