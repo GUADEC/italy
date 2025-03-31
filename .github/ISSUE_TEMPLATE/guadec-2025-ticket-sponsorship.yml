@@ -1,7 +1,12 @@
 name: Request GUADEC 2025 ticket sponsorship
 title: "[Request] GUADEC 2025 entrance ticket sponsorship"
-description: "**Note**: The sponsorship is provided by [Vanilla OS](https://github.com/vanilla-OS/) and is not affiliated to the GNOME Foundation nor has any official connection to the event organization."
 body:
+  - type: markdown
+    attributes:
+      value: |
+      > [!NOTE]
+      > The sponsorship is by [Vanilla OS](https://github.com/vanilla-OS/) and is not affiliated to the Gnome Foundation nor has any official connection to the event organization.
+
   - type: textarea
     attributes:
       label: Name and surname
