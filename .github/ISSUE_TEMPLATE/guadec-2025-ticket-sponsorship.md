@@ -1,29 +1,65 @@
----
-name: GUADEC 2025 ticket sponsorship
-about: Request for a sponsored GUADEC 2025 entrance ticket
+name: Request GUADEC 2025 ticket sponsorship
 title: "[Request] GUADEC 2025 ticket sponsorship"
-labels: ''
-assignees: ''
-
----
-
-**Name and surname**
-Your name and surname
-
-**Describe the project you are affiliated with**
-A clear and concise description of the project.
-
-**Describe your role in the project**
-In short, what you do for the project.
-
-**Why you should be selected**
-Tell us what makes you and your project valuable.
-
-**Personal and project's links**
-Provide some link to check your profile and the project
-
-**Are you up for a 5-6 minutes lightning talk about the project @ GUADEC 2025?**
-Of course the answer can be «no» but... come on :)
-
+about: "Request for a sponsored GUADEC 2025 entrance ticket.
 > [!NOTE]
-> The sponsorship is by [Vanilla OS](https://github.com/vanilla-OS/) and is not affiliated to the Gnome Foundation nor has any official connection to the event organization.
+> The sponsorship is by [Vanilla OS](https://github.com/vanilla-OS/) and is not affiliated to the Gnome Foundation nor has any official connection to the event organization."
+labels: 
+body:
+  - type: textarea
+    attributes:
+      label: Name and surname
+      description: Your name and surname.
+      placeholder: Tell us your name!
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe the project you are affiliated with
+      description: A clear and concise description of the project.
+      placeholder: Tell us about the project!
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe your role in the project
+      description: A concise explanation of what you do for the project.
+      placeholder: Tell us about your involvement with the project!
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why you should be selected
+      description: Tell us what makes you and your project valuable.
+      placeholder: Give us your reasoning to be selected for the sponsorship.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Personal and project's links
+      description: Provide some links to check your profile and the project.
+      placeholder: https://example.com/profile
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Are you up for a 5-6 minutes lightning talk about the project @ GUADEC 2025?
+      description: Participation is optional for the lighting talk, but we highly encourage participating in it.
+      options:
+          - Yes
+          - No
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Personal and project's links
+      description: Provide some links to check your profile and the project.
+      placeholder: https://example.com/profile
+
+
+
